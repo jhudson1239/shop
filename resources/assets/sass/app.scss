@@ -2,8 +2,24 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//General Styles
+@import "general";
+
+// Variables
+@import "variables";
+
+// Nav
+@import "nav";
+
+
+//Index page stylings
+#banner{
+    img{
+        width:100%;
+    }
+}
+
