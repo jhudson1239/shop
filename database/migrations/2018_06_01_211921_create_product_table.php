@@ -20,7 +20,8 @@ class CreateProductTable extends Migration
             $table->string('price');
             $table->string('image');
             $table->string('dimensions');
-            $table->string('style');
+            $table->string('collection');
+            $table->string('type');
             $table->timestamps();
         });
     }
